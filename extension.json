@@ -1,0 +1,15 @@
+{
+  "name": "news",
+  "title": "News",
+  "version": "0.0.15",
+  "description": "",
+  "platform": "1.0.*",
+  "screens": [
+    {
+      "name": "MediumDetailsNoDateScreen",
+      "title": "Medium photo with solid navbar, without date, and larger up next banner",
+      "image": "./server/assets/screens/medium-photo-solid-navbar-details-no-date.png",
+      "extends": "shoutem.news.ArticleDetailsScreen"
+    }
+  ]
+}
